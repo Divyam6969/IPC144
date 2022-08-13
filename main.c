@@ -49,6 +49,11 @@ int main(void)
     {
         printf("Invalid menu selection!");
     }
+    if(n==0)
+    {
+        printf("Application terminated!");
+        return 0;
+    }
     
     return 0;
 }
